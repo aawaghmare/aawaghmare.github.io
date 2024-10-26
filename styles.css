@@ -11,7 +11,7 @@ header {
     background: #333;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 section {
@@ -22,12 +22,15 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    color: #fff;
+    text-align: left;
 }
 
 h2 {
+    color: #333;
     margin-top: 20px;
+    text-align: left;
 }
 
 ul {
