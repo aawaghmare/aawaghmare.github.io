@@ -31,19 +31,11 @@ h1, h2 {
     text-align: left;
 }
 
-h2 {
-    color: #333;
-    margin-top: 20px;
-}
 
 p {
     text-align: left;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
 
 a {
     color: #007bff;
@@ -60,4 +52,32 @@ footer {
     padding: 10px;
     background: #333;
     color: #fff;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+ul li ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: disc; /* Use bullets for sub-lists */
+}
+
+ul li strong {
+    font-weight: bold;
+    color: #333;
 }
