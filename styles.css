@@ -14,22 +14,29 @@ header {
     text-align: left;
 }
 
+header h1 {
+    color: #ffffff; /* Ensures the header h1 is white */
+}
+
 section {
     margin: 20px;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-h1 {
-    color: #fff;
+h1, h2 {
     text-align: left;
 }
 
 h2 {
     color: #333;
     margin-top: 20px;
+}
+
+p {
     text-align: left;
 }
 
