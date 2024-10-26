@@ -25,6 +25,11 @@ header h1 {
     margin-right: 5px; /* Space between icon and text */
 }
 
+.linkedin-link {
+    color: #ffffff; /* Changes link text to white */
+    text-decoration: none; /* Removes underline from the link */
+}
+
 section {
     margin: 20px;
     padding: 20px;
