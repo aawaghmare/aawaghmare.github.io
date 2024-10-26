@@ -5,17 +5,23 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    text-align: left; /* Align all text to the left by default */
 }
 
 header {
     background: #333;
     color: #fff;
     padding: 20px;
+    text-align: left;
 }
 
 header h1 {
     color: #ffffff; /* Ensures the header h1 is white */
+}
+
+.social-icon {
+    width: 20px; /* Adjust the size of the LinkedIn logo */
+    vertical-align: middle; /* Aligns icon with text */
+    margin-right: 5px; /* Space between icon and text */
 }
 
 section {
@@ -24,6 +30,7 @@ section {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 h1, h2, p {
@@ -44,12 +51,11 @@ ul {
 ul li {
     margin-bottom: 15px;
     line-height: 1.6;
-    padding-left: 10px;
 }
 
 .sub-list {
-    list-style-type: disc;
-    margin-left: 20px;
+    list-style-type: disc; /* Bullet points for nested list */
+    margin-left: 20px; /* Indent for better alignment */
     padding-left: 10px;
 }
 
@@ -57,19 +63,27 @@ ul li {
     margin-bottom: 10px;
 }
 
-a {
-    color: #007bff;
-    text-decoration: none;
+/* Responsive styles */
+@media (max-width: 600px) {
+    header, section {
+        margin: 10px; /* Reduce margin on small screens */
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust header size for mobile */
+    }
+
+    h2 {
+        font-size: 1.25em; /* Adjust subheader size for mobile */
+    }
+
+    ul {
+        padding-left: 20px; /* Add padding for list items */
+    }
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background: #333;
-    color: #fff;
+img {
+    max-width: 100%; /* Makes images responsive */
+    height: auto; /* Keeps aspect ratio */
 }
